@@ -11,45 +11,45 @@
 
 <body>
     <main>
-        <form>
+        <table>
+
             <input type="text" placeholder="0">
-            <table>
-                <tr>
-                    <th><button id="button-number">C</button></th>
-                    <th><button id="button-number">/</button></th>
-                    <th><button id="button-number">*</button></th>
-                    <th><button id="button-number">x</button></th>
 
-                </tr>
-                <tr>
-                    <th><button id="button-number" onclick="getNumber()">7</button></th>
-                    <th><button id="button-number">8</button></th>
-                    <th><button id="button-number">9</button></th>
-                    <th><button id="button-number">-</button></th>
+            <tr>
+                <th><button>C</button></th>
+                <th><button>/</button></th>
+                <th><button>*</button></th>
+                <th><button>x</button></th>
 
-                </tr>
-                <tr>
-                    <th><button id="button-number">4</button></th>
-                    <th><button id="button-number">5</button></th>
-                    <th><button id="button-number">6</button></th>
-                    <th><button id="button-number">+</button></th>
+            </tr>
+            <tr>
+                <th><button>7</button></th>
+                <th><button>8</button></th>
+                <th><button>9</button></th>
+                <th><button>-</button></th>
 
-                </tr>
-                <tr>
-                    <th><button id="button-number">1</button></th>
-                    <th><button id="button-number">2</button></th>
-                    <th><button id="button-number">3</button></th>
-                    <th><button id="button-number">()</button></th>
+            </tr>
+            <tr>
+                <th><button>4</button></th>
+                <th><button>5</button></th>
+                <th><button>6</button></th>
+                <th><button>+</button></th>
 
-                </tr>
-                <tr>
-                    <th><button id="button-number">0</button></th>
-                    <th><button id="button-number">.</button></th>
-                    <th><button id="button-number">=</button></th>
+            </tr>
+            <tr>
+                <th><button class="add" onclick="number1()">1</button></th>
+                <th><button>2</button></th>
+                <th><button>3</button></th>
+                <th><button>()</button></th>
 
-                </tr>
-            </table>
-        </form>
+            </tr>
+            <tr>
+                <th><button>0</button></th>
+                <th><button>.</button></th>
+                <th><button class="backg-color-orange">=</button></th>
+
+            </tr>
+        </table>
     </main>
 
     <script src="script.js"></script>
